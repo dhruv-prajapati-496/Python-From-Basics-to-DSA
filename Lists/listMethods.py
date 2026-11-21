@@ -21,3 +21,10 @@ print(list)
 fruits = ["Litchi", "Banana", "Apple","Grapes"]
 fruits.sort()
 print(fruits)
+
+list.remove(5) # Removes First occurence of an element
+print(list)
+
+list.pop(3) # Syntax : list.pop(idx) | It removes an element from a particular index
+print(list)
+
