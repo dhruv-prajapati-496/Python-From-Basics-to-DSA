@@ -1,0 +1,8 @@
+# Factorial Using Recursion
+def Factorial(n):
+    if(n==0 or n==1):
+        return 1
+    return n*Factorial(n-1)
+
+n = int(input("Enter a Positive Integer: "))
+print(Factorial(n))
