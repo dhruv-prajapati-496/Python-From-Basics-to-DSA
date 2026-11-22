@@ -32,9 +32,4 @@ print(remaining_part_of_file)
 # Seeking the file so cursor points to the starting of the file
 f1.seek(0)
 remaining_part_of_file = f1.read()
-print(remaining_part_of_file)
-
-
-
-
-
+print(remaining_part_of_file)  
