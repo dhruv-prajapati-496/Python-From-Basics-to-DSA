@@ -41,5 +41,3 @@ print(s4.loc["Day 3"])
 # Lets Change the value of day 2.
 s4.loc["Day 2"] += 500
 print(s4.loc["Day 2"])
-
-
