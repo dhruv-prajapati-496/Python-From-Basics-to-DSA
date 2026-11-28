@@ -28,3 +28,18 @@ print(s1.loc[2])
 s2.loc["d"] = "Mango"
 print(s2.loc["d"])
 
+# We can also filter Objects using comparision operators
+d3 = ([100,22,33,456,32,453,232,102,345,674,98])
+s3 = pd.Series(d3)
+print(s3[s3 > 100])
+
+# If we create a series using dictionary then by default, the keys will become our index.
+calories = {"Day 1":1700 , "Day 2": 2000, "Day 3": 1800}
+s4 = pd.Series(calories)
+print(s4)
+print(s4.loc["Day 3"])
+# Lets Change the value of day 2.
+s4.loc["Day 2"] += 500
+print(s4.loc["Day 2"])
+
+
